@@ -12,7 +12,7 @@ This script returns a list of input or output paths of a Data Lake Analytics U-S
 
 * [/src/Get-AdlJobIoPath.ps1](/src/Get-AdlJobIoPath.ps1)
 
-## Prerequisite steps
+## Prerequisites
 
 1. Install [Azure PowerShell on a Windows machine](https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps)
 2. Open a new PowerShell session.
@@ -20,8 +20,9 @@ This script returns a list of input or output paths of a Data Lake Analytics U-S
 
 ## How to run the script
 
-1. In PowerShell, navigate to the ``/src/`` folder.
-2. Run ``Get-AdlJobIoPath.ps1`` using the syntax below.
+1. Download the script.
+2. In PowerShell, navigate to the folder containing the script.
+3. Run ``Get-AdlJobIoPath.ps1`` using the syntax below.
 
 **Syntax**
 ```powershell

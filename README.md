@@ -1,4 +1,6 @@
 ---
+services: data-lake-analytics
+platforms: powershell
 author: matt1883
 ---
 

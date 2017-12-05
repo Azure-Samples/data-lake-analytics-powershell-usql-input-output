@@ -10,7 +10,7 @@ This script returns a list of input or output paths of a Data Lake Analytics U-S
 
 ## Included script
 
-* [/src/Get-AdlJobIoPath.ps1](/src/Get-AdlJobIoPath.ps1)
+* [/src/Get-AdlJobIoPath.ps1](https://raw.githubusercontent.com/Azure-Samples/data-lake-analytics-powershell-usql-input-output/master/src/Get-AdlJobIoPath.ps1)
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ This script returns a list of input or output paths of a Data Lake Analytics U-S
 
 ## How to run the script
 
-1. Download the script.
+1. [Download the script](https://raw.githubusercontent.com/Azure-Samples/data-lake-analytics-powershell-usql-input-output/master/src/Get-AdlJobIoPath.ps1).
 2. In PowerShell, navigate to the folder containing the script.
 3. Run ``Get-AdlJobIoPath.ps1`` using the syntax below.
 

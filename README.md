@@ -20,20 +20,20 @@ This script returns a list of input or output paths of a Data Lake Analytics U-S
 
 ## How to run the script
 
-1. [Download the script](https://raw.githubusercontent.com/Azure-Samples/data-lake-analytics-powershell-usql-input-output/master/src/Get-AdlJobIoPath.ps1).
+1. Copy the contents of [the sample script](https://raw.githubusercontent.com/Azure-Samples/data-lake-analytics-powershell-usql-input-output/master/src/Get-AdlJobIoPath.ps1) to a new local file called ``Get-AdlJobIoPath.ps1``.
 2. In PowerShell, navigate to the folder containing the script.
 3. Run ``Get-AdlJobIoPath.ps1`` using the syntax below.
 
 **Syntax**
 
 ```powershell
-Get-AdlJobIoPath.ps1 [-Account] <string> [-Id] <Guid> [-Direction] {Input | Output}
+.\Get-AdlJobIoPath.ps1 [-Account] <string> [-Id] <Guid> [-Direction] {Input | Output}
 ```
 
 **Example**
 
 ```powershell
-Get-AdlJobIoPath.ps1 -Account contosoadla -Id c3426e86-85f5-4521-b376-e4b3e8d32d8c -Direction Output
+.\Get-AdlJobIoPath.ps1 -Account contosoadla -Id c3426e86-85f5-4521-b376-e4b3e8d32d8c -Direction Output
 ```
 
 ## Resources
